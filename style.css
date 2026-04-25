@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+.navbar-toggler{
+    border-color:azure;
+}
+.nav-item{
+    display:flex;
+    align-items:end;
+}
+.block{
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.items{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+padding:40px;
+justify-items:center;
+max-width: 1000px;
+}
+.card{
+    width: 15rem;
+    
+}
+/*span{
+        
+    box-shadow:0px 2px 0px 0px #529365;
+}
+*/
+.span:hover{
+    box-shadow:0px 2px 0px 0px #529365;
+}
+.active{
+    background-color:#529365;
+}
+.form{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+.searcher{
+    width: 30px;
+    margin-left:20px ;
+    border: 0;
+    background-color:white;
+}
+.header-search{
+    margin-left: 0px;
+    margin-bottom: 0%;
+    
+}
+.card-img-top{
+    height: 240px;
+    object-fit: cover;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.brand{
+    width: 50px;
+    height: 50px;
+}
+.justify-content-end{
+    display: flex;
+    justify-content: end;
+}
+.container1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color:rgb(6, 51, 1);
+    align-items:center;
+    justify-content: center;
+    color:rgb(250, 240, 223);
+}
+h3{
+    font-family: sans-serif;
+}
+.start{
+    height: 50px;
+    width: 100px;
+    border-collapse: collapse;
+    background-color:rgb(6, 51, 1);
+    border:1;
+    border-radius: 30px ;
+    border-color:rgb(250, 240, 223);
+    color:rgb(250, 240, 223);
+    margin-left: 10px;
+    font-family:  Arial, sans-serif;
+    font-size: 18px;
+}
+.container2{
+    display: flex;
+     width: 100%;
+    height: 300px;
+    background-color: rgb(1, 74, 23);
+    gap: 20px;
+    color:rgb(250, 240, 223);
+    align-items:center;
+}
+.imgContainer{
+    width: 400px;
+    height: 200px;
+}
+.text{
+    display: flex;
+   max-width: 500px;
+   flex-direction: column;
+   padding: 10px;
+   justify-content: center;
+   align-items:center;
+}
+.container3{
+    display: flex;
+     width: 100%;
+    height: 400px;
+    background-color:rgb(1, 74, 23);
+    align-items:center;
+    justify-content: flex-end;
+    gap: 20px;
+    color:rgb(250, 240, 223);
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+.Spring{
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border-collapse: collapse;
+    background-color:rgb(1, 74, 23);
+    border:1;
+    border-radius: 30px ;
+    border-color:rgb(250, 240, 223);
+    color:rgb(250, 240, 223);
+    margin-left: 10px;
+    font-family:  Arial, sans-serif;
+    font-size: 18px;
+}
+.imgContainer3{
+    width: 500px;
+    height: 400px;
+}
+
+.container4{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+     width: 100%;
+    height: 300px;
+    background-color:rgb(250, 240, 223);
+    color:rgb(1, 74, 23);
+}
+.text3{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.black{
+    color:black;
+}
+.bake{
+    box-shadow:0px 2px 0px 0px black;
+    align-items:center;
+    margin: 0;
+}
+.active{
+    background-color:#529365;
+    color:antiquewhite;
+}
+.heart{
+    cursor: pointer;
+    
+}
+.heart.redHeart {
+   background-image: url('heart2.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: inline-block;
+   width: 24px;  /* або інший розмір вашої іконки */
+   height: 24px;
+   color: transparent; /* приховує текст "favorite" */
+}
+.container5{
+    background-color:white;
+    color:#529365;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.Sing{
+     box-sizing:border-box;
+    border:30px;
+    border-radius:20px;
+    background-color:antiquewhite;
+    color:#529365;
+}
+.Sing:hover{
+    background-color:#529365;
+    color:antiquewhite;
+}
+.joinnow{
+    box-sizing:border-box;
+    border:30px;
+    border-radius:20px;
+    color: white;
+    background-color:#529365;
+}
+.joinnow:hover{
+    background-color:white;
+    color:#529365;
+}
+.btn-primary{
+    width: 40px;
+    background-color:white;
+    border: 1px solid;
+    border-radius:4px;
+    border-color:#529365;
+    color:#529365;
+}
+.btn-primary:hover{
+    background-color:#529365;
+    color: white;
+}
